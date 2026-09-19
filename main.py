@@ -1,4 +1,3 @@
-```python
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from bs4 import BeautifulSoup
 import re
@@ -141,4 +140,3 @@ async def get_course(course_code: str):
         )
 
     return course
-```
